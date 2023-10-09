@@ -1,0 +1,6 @@
+[submodule "pages/2d-hard-shadows/--force"]
+	path = pages/2d-hard-shadows/--force
+	url = git@github.com:koliao/2d-hard-shadows.git
+[submodule "pages/2d-hard-shadows/2d-hard-shadows"]
+	path = pages/2d-hard-shadows/2d-hard-shadows
+	url = git@github.com:koliao/2d-hard-shadows.git
