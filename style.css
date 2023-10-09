@@ -57,6 +57,10 @@ strong {
     filter: var(--accent-color-filter);
 }
 
+.contactIcon:hover {
+    filter: var(--accent-color-filter) brightness(1.2);
+}
+
 .resumeSection {
     display: flex;
     flex-direction: column;

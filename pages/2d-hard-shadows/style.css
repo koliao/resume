@@ -66,3 +66,15 @@ strong {
 
     border: none;
 }
+
+.contactIcon {
+    width: 20px;
+    filter: var(--accent-color-filter);
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.contactIcon:hover {
+    filter: var(--accent-color-filter) brightness(1.2);
+}
