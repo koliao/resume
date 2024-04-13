@@ -16,6 +16,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
     gap: 50px;
 }
@@ -28,6 +30,10 @@ p {
 a {
     font-family: "Ubuntu";
     color: var(--primary-color);
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 h1 {
@@ -48,16 +54,26 @@ h3 {
     margin: 0;
 }
 
+h4 {
+    font-family: "Ubuntu";
+    color: var(--text-color);
+    margin: 0;
+    margin-top: 40px;
+}
+
 strong {
     color: var(--accent-color);
 }
 
 .contactIcon {
+    transition-duration: 0.1s;
     width: 20px;
     filter: var(--accent-color-filter);
 }
 
 .contactIcon:hover {
+    transition-duration: 0.2s;
+    width: 26px;
     filter: var(--accent-color-filter) brightness(1.2);
 }
 
@@ -77,6 +93,7 @@ strong {
     align-items: center;
     margin-top: 10px;
     gap: 8px;
+    height: 26px;
 }
 
 .projectGroup {
@@ -106,6 +123,7 @@ strong {
 }
 
 .projectImage {
+    transition-duration: 0.1s;
     width: 200px;
     height: 112px;
     object-fit: cover;
